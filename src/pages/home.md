@@ -28,33 +28,23 @@ customCode:
 addToCollections: false
 layout: layouts/page.html
 hero:
-  _bookshop_name: sections/fullImageHero
+  _bookshop_name: sections/fullImageTextBottomHero
   content:
-    highlightEybrow: false
     sectionId:
-    eyebrow: \[\[st.name\]\] \| American Hat Company Certified Reseller
-    headline: |-
-      Selling Genuine Hats to
-
-      Idaho for Over 20 Years
+    highlightEybrow: false
+    eyebrow: '\[\[st.name\]\]: Genuine Hats. Enduring Style. Since 2005.'
+    headline: Crafting Idaho's Legacy, One Hat At A Time.
     description: >-
-      \[\[st.name\]\] is family run business and we have sold **thousands**
-      <br>of hats to proud Idahoans for over **20 years**
+      For over **two decades**, \[\[st.name\]\] has been the trusted name for
+      quality headwear. A **family-run legacy**, we're dedicated to finding or
+      creating the **perfect hat** that speaks to **your unique story.**
     buttons:
       - _bookshop_name: generic/button
         url: '#'
         openInNewTab: false
-        text: Explore our hats
+        text: Explore our collection
         color_group: primary
         colorFromGroup: primary
-        ghostButton: false
-        formSubmit: false
-      - _bookshop_name: generic/button
-        url: '#'
-        openInNewTab: false
-        text: Custom order a hat
-        color_group: primary
-        colorFromGroup: secondary
         ghostButton: false
         formSubmit: false
     image:
@@ -68,59 +58,8 @@ hero:
       imageNumber:
   styles:
     color_group: primary
-    contentAlignment: left
-    textAlignment: left
-    backgroundOpacity: 55
+    backgroundOpacity: 50
 content_blocks:
-  - _bookshop_name: sections/reviewCards
-    content:
-      sectionId:
-      heading:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: Wall of love
-          headline: Hear it From Happy Customers
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: center
-          textAlignment: center
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
-      usePersonImage: false
-      reviews:
-        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 341e416f-ee7e-47d5-b833-efa5e4c6535a
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 31517161-09a3-46e8-8041-f5dd1ac900c0
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: c8c2e548-7b7f-4052-a2d5-8084a541260a
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 357687d6-211f-4cbf-8c9e-b3cb2224de21
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: b7b5b2d0-2aaa-4b47-9b8d-eb884ac5b0b3
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-    styles:
-      color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
   - _bookshop_name: sections/imageCarousel
     content:
       showNote: true
@@ -130,15 +69,19 @@ content_blocks:
         content:
           highlightEyebrow: false
           eyebrow: Want to Browse?
-          headline: Check out Some of Our Options
-          description: |-
-            At \[\[st.name\]\] we everything you need for men and women.
-
-            * Hats
-            * Boots
-            * Belts
-            * and more!
-          buttons: []
+          headline: Your Signature Style, Defined.
+          description: >-
+            Whether you're looking for iconic Western wear or a bespoke
+            creation, explore our curated selection for every adventure.
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: Explore our collection
+              color_group: primary
+              colorFromGroup: primary
+              ghostButton: false
+              formSubmit: false
           headingHierarchy: h2
         styles:
           headingRight: false
@@ -213,6 +156,161 @@ content_blocks:
           imageNumber:
     styles:
       color_group: primary
+  - _bookshop_name: sections/reviewCards
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: Wall of love
+          headline: Hear it From Happy Customers
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: false
+      reviews:
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 341e416f-ee7e-47d5-b833-efa5e4c6535a
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 31517161-09a3-46e8-8041-f5dd1ac900c0
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: c8c2e548-7b7f-4052-a2d5-8084a541260a
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 357687d6-211f-4cbf-8c9e-b3cb2224de21
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: b7b5b2d0-2aaa-4b47-9b8d-eb884ac5b0b3
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+    styles:
+      color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
+  - _bookshop_name: sections/sideBySideStandard
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: A Little About Us
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      entries:
+        - _bookshop_name: generic/leftRight
+          content:
+            heading:
+              _bookshop_name: generic/heading
+              content:
+                highlightEyebrow: false
+                eyebrow: ''
+                headline: Experience the Art of Hatmaking.
+                description: >-
+                  At \[\[st.name\]\], we believe a hat is more than an
+                  accessory—it's an extension of who you are. As an American Hat
+                  Company Certified Reseller and a family-run business for over
+                  20 years, we've helped thousands of proud Idahoans find their
+                  perfect fit. From classic Western to modern custom designs,
+                  every hat in our Nampa showroom embodies quality, tradition,
+                  and personalized service.
+                buttons:
+                  - _bookshop_name: generic/button
+                    url: '#'
+                    openInNewTab: false
+                    text: Meet the Family
+                    color_group: primary
+                    colorFromGroup: secondary
+                    ghostButton: false
+                    formSubmit: false
+                headingHierarchy: h2
+              styles:
+                contentAlignment: left
+                textAlignment: left
+                visualInterest: none
+                visualInterestColor: '#000000'
+                highContrast: false
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
+            image:
+              _bookshop_name: generic/image
+              imagePath: /assets/uploads/home/cowboy-riding-watching-sunset.jpg
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
+              imageNumber:
+            entryNumber: 0
+          styles:
+            color_group: primary
+            colorFromGroup: background
+    styles:
+      color_group: primary
+      startImageRight: false
+      fullWidth: true
+  - _bookshop_name: sections/coloredCTA
+    content:
+      sectionId:
+      CallToAction:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Discover Your Perfect Hat
+          description: At Idaho Hat Company, we have everything you need for men and women.
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: Explore our collection.
+              color_group: primary
+              colorFromGroup: background
+              ghostButton: false
+              formSubmit: false
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+    styles:
+      color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
+      card_color_group: primary
+      colorFromGroup: primary
 _inputs:
   removeFromNavigation:
     hidden: true
