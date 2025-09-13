@@ -275,7 +275,7 @@ content_blocks:
               imageNumber:
             entryNumber: 0
           styles:
-            color_group: primary
+            color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
             colorFromGroup: background
     styles:
       color_group: primary
