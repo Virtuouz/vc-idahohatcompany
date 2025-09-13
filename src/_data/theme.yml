@@ -13,12 +13,19 @@ customColor_groups:
     secondaryColor: '#838fa0'
     accentColor: '#95744b'
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
+  - name: Primary Alt
+    textColor: '#2c2b2c'
+    backgroundColor: '#f9f9f9'
+    primaryColor: '#7a5b4c'
+    secondaryColor: '#5e6a7b'
+    accentColor: '#b39269'
+    id: 7910a55b-f91e-47da-b36c-a80a4b23865a
 heading_font: Oswald
 content_font: Source Sans
 logo_font: Oswald
-button_rounding: rounded-none
-image_rounding: rounded-none
-container_rounding: rounded-none
+button_rounding: rounded
+image_rounding: rounded
+container_rounding: rounded
 _inputs:
   button_rounding:
     comment: >-
