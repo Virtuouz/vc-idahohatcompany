@@ -1,16 +1,16 @@
 {
   "logoPath": "",
   "faviconPath": "",
-  "name": "My Business Name",
-  "legalName": "Legal Name LLC",
-  "termsAndConditionsUrl": "",
-  "privacyPolicyUrl": "",
-  "url": "https://exampe.com",
+  "name": "Idaho Hat Company",
+  "legalName": "Idaho Hat Company",
+  "termsAndConditionsUrl": "/legal/terms/",
+  "privacyPolicyUrl": "/legal/privacy/",
+  "url": "https://example.com",
   "contactInfo": {
-    "email": "info@example.com",
-    "phone": "123-456-7890",
-    "location": "Some Rd, Somecity, ID ",
-    "hours": "Mon - Fri: 8am-5pm"
+    "email": null,
+    "phone": "(208) 466-7661",
+    "location": "2011 2nd st s, Nampa",
+    "hours": "Mon - Sat: 10am-6pm"
   },
   "customCode": {
     "headCode": "",
@@ -25,8 +25,34 @@
   },
   "navigation": {
     "footerUseNav": true,
-    "topNav":null,
-    "footerNav":null
+    "topNav": [
+      {
+        "_menuType": "link",
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "_menuType": "link",
+        "title": "About",
+        "url": "#"
+      },
+      {
+        "_menuType": "link",
+        "title": "Shop",
+        "url": "#"
+      },
+      {
+        "_menuType": "link",
+        "title": "Blog",
+        "url": "#"
+      },
+      {
+        "_menuType": "link",
+        "title": "Contact Us",
+        "url": "#"
+      }
+    ],
+    "footerNav": null
   },
   "socialMediaLinks": [
     {
@@ -42,12 +68,12 @@
       "linkUrl": "https://dribbble.com/"
     }
   ],
-  "socialImage": "",
+  "socialImage": "/assets/uploads/social-hat.jpg",
   "button": {
     "_bookshop_name": "generic/button",
-    "url": "https://example.com",
+    "url": "#",
     "openInNewTab": false,
-    "text": "Button Text",
+    "text": "Explore our Hats",
     "color_group": "primary",
     "colorFromGroup": "primary",
     "ghostButton": true
@@ -56,19 +82,19 @@
   "color_group": "primary",
   "footer_color_group": "5c9075f8-80f9-4482-b041-91cffdfe02be",
   "_inputs": {
-    "footerUseNav":{
+    "footerUseNav": {
       "label": "Use Top Navigation in Footer",
       "comment": "This will duplicate the top navigation in the footer to save you time. If you want to use your own navigation in the footer, leave this unchecked."
     },
     "topNav": {
-      "type":"array",
+      "type": "array",
       "options": {
         "structures": "_structures.rootLinks"
       }
     },
     "footerNav": {
       "hidden": "footerUseNav",
-      "type":"array",
+      "type": "array",
       "options": {
         "structures": "_structures.links"
       }
