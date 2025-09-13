@@ -158,6 +158,20 @@ content_blocks:
           imageSizes:
           class:
           imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/sombrero-charro.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/blue-sombrerro-charro.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
     styles:
       color_group: primary
 _inputs:
