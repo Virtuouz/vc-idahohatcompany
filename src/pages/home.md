@@ -9,9 +9,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Home
   order: 1
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: /
 permalink: >-
   {% if pageLink == 'blog' or pageLink == 'Blog' %}/{{pageLink | slugify}}{% if
@@ -21,7 +21,7 @@ permalink: >-
   }}/index.html{% else %}/{% assign title = title | slugify %}{{
   page.filePathStem | fileSubstringFilter | append: title | downcase
   }}/index.html{%endif %}
-metaDesc:
+metaDesc: null
 customCode:
   headCode: ''
   bodyCode: ''
@@ -30,10 +30,10 @@ layout: layouts/page.html
 hero:
   _bookshop_name: sections/fullImageTextBottomHero
   content:
-    sectionId:
+    sectionId: null
     highlightEybrow: false
     eyebrow: '\[\[st.name\]\]: Genuine Hats. Enduring Style. Since 2005.'
-    headline: Crafting Idaho's Legacy, One Hat At A Time.
+    headline: 'Crafting Idaho''s Legacy, One Hat At A Time.'
     description: >-
       For over **two decades**, \[\[st.name\]\] has been the trusted name for
       quality headwear. A **family-run legacy**, we're dedicated to finding or
@@ -51,11 +51,11 @@ hero:
       _bookshop_name: generic/image
       imagePath: >-
         /assets/uploads/home/portrait-cowboy-sunset-american-west-illustration-ai-generative.jpg
-      imageAlt:
-      yAxisPosition:
-      imageSizes:
-      class:
-      imageNumber:
+      imageAlt: null
+      yAxisPosition: null
+      imageSizes: null
+      class: null
+      imageNumber: null
   styles:
     color_group: primary
     backgroundOpacity: 50
@@ -63,13 +63,13 @@ content_blocks:
   - _bookshop_name: sections/imageCarousel
     content:
       showNote: true
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/headingHorizontal
         content:
           highlightEyebrow: false
           eyebrow: Want to Browse?
-          headline: Your Signature Style, Defined.
+          headline: 'Your Signature Style, Defined.'
           description: >-
             Whether you're looking for iconic Western wear or a bespoke
             creation, explore our curated selection for every adventure.
@@ -88,77 +88,77 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
+          contrastColorGroup: null
+          contrastAgainst: null
       images:
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/many-hats.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/social-hat.jpg
-          imageAlt:
+          imageAlt: null
           yAxisPosition: 50
-          imageSizes:
-          class:
-          imageNumber:
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/new-hats.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-browner-boots.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/black-hat.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-pink-boots.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/american-hat-compnay.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/sombrero-charro.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/blue-sombrerro-charro.jpg
-          imageAlt:
-          yAxisPosition:
-          imageSizes:
-          class:
-          imageNumber:
+          imageAlt: null
+          yAxisPosition: null
+          imageSizes: null
+          class: null
+          imageNumber: null
     styles:
       color_group: primary
   - _bookshop_name: sections/reviewCards
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -174,9 +174,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       usePersonImage: false
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
@@ -207,7 +207,7 @@ content_blocks:
       color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
   - _bookshop_name: sections/sideBySideStandard
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -223,9 +223,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       entries:
         - _bookshop_name: generic/leftRight
           content:
@@ -259,17 +259,17 @@ content_blocks:
                 visualInterest: none
                 visualInterestColor: '#000000'
                 highContrast: false
-                contrastColorGroup:
-                contrastAgainst:
-                textClassOverride:
+                contrastColorGroup: null
+                contrastAgainst: null
+                textClassOverride: null
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/home/cowboy-riding-watching-sunset.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-              imageNumber:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+              imageNumber: null
             entryNumber: 0
           styles:
             color_group: primary
@@ -280,14 +280,14 @@ content_blocks:
       fullWidth: true
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId:
+      sectionId: null
       CallToAction:
         _bookshop_name: generic/heading
         content:
           highlightEyebrow: false
           eyebrow: ''
           headline: Discover Your Perfect Hat
-          description: At Idaho Hat Company, we have everything you need for men and women.
+          description: 'At Idaho Hat Company, we have everything you need for men and women.'
           buttons:
             - _bookshop_name: generic/button
               url: '#'
@@ -304,9 +304,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
     styles:
       color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
       card_color_group: primary
@@ -329,7 +329,7 @@ _inputs:
     hidden: '!addToCollections'
     type: multiselect
     options:
-      values: data.pageCollections.tags[*]
+      values: 'data.pageCollections.tags[*]'
   collectionImage:
     hidden: '!addToCollections'
   imageAltText:
@@ -364,3 +364,4 @@ _inputs:
       removeformat: true
       copyformatting: true
 ---
+
