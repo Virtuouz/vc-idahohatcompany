@@ -32,7 +32,7 @@ hero:
   content:
     highlightEybrow: false
     sectionId:
-    eyebrow: \[\[st.name\]\] \| Certified Reseller
+    eyebrow: \[\[st.name\]\] \| American Hat Company Certified Reseller
     headline: |-
       Selling Genuine Hats to
 
@@ -80,6 +80,84 @@ content_blocks:
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
         - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+    styles:
+      color_group: primary
+  - _bookshop_name: sections/imageCarousel
+    content:
+      showNote: true
+      sectionId:
+      heading:
+        _bookshop_name: generic/headingHorizontal
+        content:
+          highlightEyebrow: false
+          eyebrow: Want to Browse?
+          headline: Check out Some of Our Options
+          description: |-
+            At \[\[st.name\]\] we everything you need for men and women.
+
+            * Hats
+            * Boots
+            * Belts
+            * and more!
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          headingRight: false
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+      images:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/many-hats.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/social-hat.jpg
+          imageAlt:
+          yAxisPosition: 50
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/new-hats.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/brown-and-browner-boots.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/black-hat.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/brown-and-pink-boots.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
+        - _bookshop_name: generic/image
+          imagePath: /assets/uploads/home/american-hat-compnay.jpg
+          imageAlt:
+          yAxisPosition:
+          imageSizes:
+          class:
+          imageNumber:
     styles:
       color_group: primary
 _inputs:
