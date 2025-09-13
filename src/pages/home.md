@@ -71,7 +71,17 @@ hero:
     contentAlignment: left
     textAlignment: left
     backgroundOpacity: 55
-content_blocks: []
+content_blocks:
+  - _bookshop_name: sections/textBreakReview
+    content:
+      sectionId:
+      heading:
+      usePersonImage: false
+      reviews:
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+    styles:
+      color_group: primary
 _inputs:
   removeFromNavigation:
     hidden: true
