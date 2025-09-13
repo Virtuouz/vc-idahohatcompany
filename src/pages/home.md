@@ -257,7 +257,7 @@ content_blocks:
                     formSubmit: false
                 headingHierarchy: h2
               styles:
-                contentAlignment: left
+                contentAlignment: center
                 textAlignment: left
                 visualInterest: none
                 visualInterestColor: '#000000'
