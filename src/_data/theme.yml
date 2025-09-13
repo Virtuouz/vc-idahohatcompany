@@ -15,7 +15,7 @@ customColor_groups:
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - name: Primary Alt
     textColor: '#2c2b2c'
-    backgroundColor: '#f9f9f9'
+    backgroundColor: '#fbf7f0'
     primaryColor: '#7a5b4c'
     secondaryColor: '#5e6a7b'
     accentColor: '#b39269'

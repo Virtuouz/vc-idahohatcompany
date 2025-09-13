@@ -107,20 +107,20 @@ content_blocks:
         - review: 31517161-09a3-46e8-8041-f5dd1ac900c0
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
+        - review: c8c2e548-7b7f-4052-a2d5-8084a541260a
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 357687d6-211f-4cbf-8c9e-b3cb2224de21
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
         - review: b7b5b2d0-2aaa-4b47-9b8d-eb884ac5b0b3
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
-        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
-        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
-          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
-          colorFromGroup: primary
     styles:
-      color_group: primary
+      color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
   - _bookshop_name: sections/imageCarousel
     content:
       showNote: true
