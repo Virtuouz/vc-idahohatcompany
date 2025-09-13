@@ -23,9 +23,9 @@ customColor_groups:
 heading_font: Oswald
 content_font: Source Sans
 logo_font: Oswald
-button_rounding: rounded
-image_rounding: rounded
-container_rounding: rounded
+button_rounding: rounded-sm
+image_rounding: rounded-sm
+container_rounding: rounded-sm
 _inputs:
   button_rounding:
     comment: >-
