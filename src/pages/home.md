@@ -98,10 +98,13 @@ content_blocks:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
+        - review: 341e416f-ee7e-47d5-b833-efa5e4c6535a
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
         - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
-        - review: 341e416f-ee7e-47d5-b833-efa5e4c6535a
+        - review: 31517161-09a3-46e8-8041-f5dd1ac900c0
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
         - review: b7b5b2d0-2aaa-4b47-9b8d-eb884ac5b0b3
@@ -110,7 +113,10 @@ content_blocks:
         - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
-        - review: 31517161-09a3-46e8-8041-f5dd1ac900c0
+        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: primary
+        - review: 137dcc92-85bf-4937-8785-8e9bfc8eb9c5
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: primary
     styles:
