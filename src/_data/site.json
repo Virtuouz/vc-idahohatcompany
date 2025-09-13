@@ -56,16 +56,8 @@
   },
   "socialMediaLinks": [
     {
-      "label": "Xwitter",
-      "linkUrl": "https://twitter.com/"
-    },
-    {
       "label": "Facebook",
-      "linkUrl": "https://www.facebook.com/"
-    },
-    {
-      "label": "Dribble",
-      "linkUrl": "https://dribbble.com/"
+      "linkUrl": "https://www.facebook.com/profile.php?id=100046848506846"
     }
   ],
   "socialImage": "/assets/uploads/social-hat.jpg",
@@ -76,9 +68,9 @@
     "text": "Explore our Hats",
     "color_group": "primary",
     "colorFromGroup": "primary",
-    "ghostButton": true
+    "ghostButton": false
   },
-  "nav_color_group": "primary",
+  "nav_color_group": "5c9075f8-80f9-4482-b041-91cffdfe02be",
   "color_group": "primary",
   "footer_color_group": "5c9075f8-80f9-4482-b041-91cffdfe02be",
   "_inputs": {
