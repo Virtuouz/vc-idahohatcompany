@@ -59,6 +59,7 @@ hero:
       imageSizes: null
       class: null
       imageNumber: null
+      imageWidths: null
   styles:
     color_group: primary
     backgroundOpacity: 50
@@ -101,6 +102,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/social-hat.jpg
           imageAlt: null
@@ -108,6 +110,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/new-hats.jpg
           imageAlt: null
@@ -115,6 +118,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-browner-boots.jpg
           imageAlt: null
@@ -122,6 +126,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/black-hat.jpg
           imageAlt: null
@@ -129,6 +134,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-pink-boots.jpg
           imageAlt: null
@@ -136,6 +142,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/american-hat-compnay.jpg
           imageAlt: null
@@ -143,6 +150,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/sombrero-charro.jpg
           imageAlt: null
@@ -150,6 +158,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/blue-sombrerro-charro.jpg
           imageAlt: null
@@ -157,6 +166,7 @@ content_blocks:
           imageSizes: null
           class: null
           imageNumber: null
+          imageWidths: null
     styles:
       color_group: primary
   - _bookshop_name: sections/reviewCards
@@ -273,6 +283,7 @@ content_blocks:
               imageSizes: null
               class: null
               imageNumber: null
+              imageWidths: null
             entryNumber: 0
           styles:
             color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
