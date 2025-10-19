@@ -100,7 +100,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    new_preview_url: null
+    new_preview_url: /
     schemas:
       default:
         path: .cloudcannon/schemas/page.md
@@ -170,6 +170,7 @@ collections_config:
     output: true
     url: dist/happenings
     icon: event
+    new_preview_url: /
     filter:
       exclude:
         - happenings.json
@@ -214,6 +215,7 @@ collections_config:
     name: Services
     description: All your services
     icon: design_services
+    new_preview_url: /
     documentation: null
     preview:
       gallery: design_services
@@ -256,6 +258,7 @@ collections_config:
     name: Listings
     description: All your listings
     icon: lists
+    new_preview_url: /
     documentation: null
     preview:
       gallery: lists
