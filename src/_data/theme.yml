@@ -1,4 +1,5 @@
 primaryColor_group:
+  id: primary
   name: Primary
   textColor: '#2c2b2c'
   backgroundColor: '#f3eee6'
