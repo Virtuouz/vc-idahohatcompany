@@ -50,6 +50,7 @@ hero:
         colorFromGroup: primary
         ghostButton: false
         formSubmit: false
+        _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
     image:
       _bookshop_name: generic/image
       imagePath: >-
@@ -60,9 +61,11 @@ hero:
       class: null
       imageNumber: null
       imageWidths: null
+      _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
   styles:
     color_group: primary
     backgroundOpacity: 50
+  _componentId: fullImageTextBottomHero-b0e632cd-24ba-4fdf-b15b-e20780e23c4d
 content_blocks:
   - _bookshop_name: sections/imageCarousel
     content:
@@ -86,6 +89,7 @@ content_blocks:
               colorFromGroup: primary
               ghostButton: false
               formSubmit: false
+              _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
           headingHierarchy: h2
         styles:
           headingRight: false
@@ -94,6 +98,7 @@ content_blocks:
           highContrast: false
           contrastColorGroup: null
           contrastAgainst: null
+        _componentId: headingHorizontal-96565188-1c97-459d-8be1-ba39502ecbc1
       images:
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/many-hats.jpg
@@ -103,6 +108,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/social-hat.jpg
           imageAlt: null
@@ -111,6 +117,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/new-hats.jpg
           imageAlt: null
@@ -119,6 +126,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-browner-boots.jpg
           imageAlt: null
@@ -127,6 +135,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/black-hat.jpg
           imageAlt: null
@@ -135,6 +144,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/brown-and-pink-boots.jpg
           imageAlt: null
@@ -143,6 +153,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/american-hat-compnay.jpg
           imageAlt: null
@@ -151,6 +162,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/sombrero-charro.jpg
           imageAlt: null
@@ -159,6 +171,7 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
         - _bookshop_name: generic/image
           imagePath: /assets/uploads/home/blue-sombrerro-charro.jpg
           imageAlt: null
@@ -167,8 +180,10 @@ content_blocks:
           class: null
           imageNumber: null
           imageWidths: null
+          _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
     styles:
       color_group: primary
+    _componentId: imageCarousel-3c829311-df32-41c0-a254-9e0f1afccf29
   - _bookshop_name: sections/reviewCards
     content:
       sectionId: null
@@ -190,6 +205,7 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       usePersonImage: false
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
@@ -218,6 +234,7 @@ content_blocks:
           colorFromGroup: primary
     styles:
       color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
+    _componentId: reviewCards-e9ca074f-936e-4ba6-ba53-c94ee8c1d42b
   - _bookshop_name: sections/sideBySideStandard
     content:
       sectionId: null
@@ -239,6 +256,7 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
       entries:
         - _bookshop_name: generic/leftRight
           content:
@@ -265,6 +283,7 @@ content_blocks:
                     colorFromGroup: secondary
                     ghostButton: false
                     formSubmit: false
+                    _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
                 headingHierarchy: h2
               styles:
                 contentAlignment: center
@@ -275,6 +294,7 @@ content_blocks:
                 contrastColorGroup: null
                 contrastAgainst: null
                 textClassOverride: null
+              _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/home/cowboy-riding-watching-sunset.jpg
@@ -284,14 +304,17 @@ content_blocks:
               class: null
               imageNumber: null
               imageWidths: null
+              _componentId: image-c1cbbc3b-f7dc-4577-8f8f-c37dd7943db2
             entryNumber: 0
           styles:
             color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
             colorFromGroup: background
+          _componentId: leftRight-eeb30bac-09e7-41ba-a9ab-424fd98ea4b8
     styles:
       color_group: primary
       startImageRight: false
       fullWidth: true
+    _componentId: sideBySideStandard-f655a3f4-fd11-402d-9794-215be5328ad6
   - _bookshop_name: sections/coloredCTA
     content:
       sectionId: null
@@ -311,6 +334,7 @@ content_blocks:
               colorFromGroup: background
               ghostButton: false
               formSubmit: false
+              _componentId: button-5a055703-3064-4c18-af21-4c4ef537e497
           headingHierarchy: h2
         styles:
           contentAlignment: center
@@ -321,10 +345,12 @@ content_blocks:
           contrastColorGroup: null
           contrastAgainst: null
           textClassOverride: null
+        _componentId: heading-89db575d-4583-4ff0-89a6-d6931371a72a
     styles:
       color_group: 7910a55b-f91e-47da-b36c-a80a4b23865a
       card_color_group: primary
       colorFromGroup: primary
+    _componentId: coloredCTA-8dd43b36-5bc2-4b3b-912d-f1de497e8467
 _inputs:
   removeFromNavigation:
     hidden: true
