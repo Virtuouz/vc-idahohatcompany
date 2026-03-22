@@ -10,7 +10,8 @@
     "email": null,
     "phone": "(208) 466-7661",
     "location": "2011 2nd st s, Nampa",
-    "hours": "Mon - Sat: 10am-6pm"
+    "hours": "Mon - Sat: 10am-6pm",
+    "obfuscateContactInfo": false
   },
   "customCode": {
     "headCode": "",
@@ -114,6 +115,10 @@
     },
     "termsAndConditionsUrl": {
       "type": "url"
+    },
+    "obfuscateContactInfo": {
+      "type": "switch",
+      "comment": "Obfuscate phone numbers and emails to prevent scraping. May impact SEO."
     },
     "umamiAnalytics": {
       "hidden": true
