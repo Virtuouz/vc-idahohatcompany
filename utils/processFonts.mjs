@@ -3,13 +3,13 @@ import path from 'path';
 import zlib from 'zlib';
 import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
-import fontkit from 'fontkit';
+import * as fontkit from 'fontkit';
 import wawoff2 from 'wawoff2';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 
-const THEME_PATH  = path.join(ROOT, '_data/theme.yml');
+const THEME_PATH  = path.join(ROOT, 'src/_data/theme.yml');
 const FONT_OUT_DIR = path.join(ROOT, 'dist/assets/fonts/processed');
 const CSS_OUT_PATH = path.join(ROOT, 'src/assets/styles/generated-fonts.scss');
 
