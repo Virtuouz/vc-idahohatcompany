@@ -191,13 +191,22 @@ export async function processFonts() {
 
   console.log('[fonts] Scanning theme.yml for custom font files…');
 
-  for (const { key, cssVar } of FONT_SLOTS) {
-    const fileValue = "src/" + theme[`${key}_file`];
-    if (!fileValue) continue; // Slot uses Fonts Bunny — skip
+  const FONT_EXTS = new Set(['.woff', '.woff2', '.ttf', '.otf']);
 
+  for (const { key, cssVar } of FONT_SLOTS) {
+    const raw = theme[`${key}_file`];
+    if (!raw || typeof raw !== 'string') continue; // No file configured — skip
+
+    const ext = path.extname(raw).toLowerCase();
+    if (!FONT_EXTS.has(ext)) {
+      console.warn(`  [fonts] ⚠ skipping — "${raw}" is not a font file (slot: ${key})`);
+      continue;
+    }
+
+    const fileValue = "src/" + raw;
     const srcAbsPath = path.join(ROOT, fileValue);
 
-    if (!fs.existsSync(srcAbsPath)) {
+    if (!fs.existsSync(srcAbsPath) || !fs.statSync(srcAbsPath).isFile()) {
       console.warn(`  [fonts] ⚠ not found — ${fileValue} (slot: ${key})`);
       continue;
     }
