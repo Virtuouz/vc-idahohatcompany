@@ -15,9 +15,9 @@ const CSS_OUT_PATH = path.join(ROOT, 'src/assets/styles/generated-fonts.scss');
 
 // Which theme keys map to which CSS variable names
 const FONT_SLOTS = [
-  { key: 'heading_font', cssVar: '--font-heading' },
-  { key: 'content_font', cssVar: '--font-content' },
-  { key: 'logo_font',    cssVar: '--font-logo'    },
+  { key: 'heading_font', cssVar: '--heading-font' },
+  { key: 'content_font', cssVar: '--content-font' },
+  { key: 'logo_font',    cssVar: '--logo-font'    },
 ];
 
 
@@ -192,7 +192,7 @@ export async function processFonts() {
   console.log('[fonts] Scanning theme.yml for custom font files…');
 
   for (const { key, cssVar } of FONT_SLOTS) {
-    const fileValue = theme[`${key}_file`];
+    const fileValue = "src/" + theme[`${key}_file`];
     if (!fileValue) continue; // Slot uses Fonts Bunny — skip
 
     const srcAbsPath = path.join(ROOT, fileValue);
