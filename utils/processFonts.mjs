@@ -151,7 +151,7 @@ async function processFont(srcAbsPath) {
 // ---------------------------------------------------------------------------
 function fontFaceCss(meta, woff2AbsPath) {
   // Make the path relative to the project root for the public URL
-  const publicPath = '/' + path.relative(ROOT, woff2AbsPath).replace(/\\/g, '/');
+  const publicPath = '/' + path.relative(path.join(ROOT, 'dist'), woff2AbsPath).replace(/\\/g, '/');
 
   if (meta.isVariable) {
     const wght = meta.axes.find(a => a.tag === 'wght');
