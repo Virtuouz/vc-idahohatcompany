@@ -228,3 +228,9 @@ export async function processFonts() {
   fs.writeFileSync(CSS_OUT_PATH, css);
   console.log(`[fonts] CSS written → ${path.relative(ROOT, CSS_OUT_PATH)}`);
 }
+
+// Auto-run when executed directly (e.g. `node ./utils/processFonts.mjs`)
+const isDirectRun = process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]);
+if (isDirectRun) {
+  processFonts();
+}
