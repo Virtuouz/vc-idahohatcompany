@@ -56,31 +56,37 @@ _inputs:
       values: data.fonts
   heading_font_file:
     type: file
-    accepts_mime_types:
-      - font/ttf
-      - font/otf
-      - font/woff
-      - font/woff2
-      - application/font-woff
-      - application/font-woff2
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
   content_font_file:
     type: file
-    accepts_mime_types:
-      - font/ttf
-      - font/otf
-      - font/woff
-      - font/woff2
-      - application/font-woff
-      - application/font-woff2
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
   logo_font_file:
     type: file
-    accepts_mime_types:
-      - font/ttf
-      - font/otf
-      - font/woff
-      - font/woff2
-      - application/font-woff
-      - application/font-woff2
+    options:
+      empty_type: string
+      accepts_mime_types:
+        - font/ttf
+        - font/otf
+        - font/woff
+        - font/woff2
+        - application/font-woff
+        - application/font-woff2
   textColor:
     type: color
   backgroundColor:
