@@ -168,7 +168,7 @@
                   set timezone to Intl.DateTimeFormat().resolvedOptions().timeZone
                   js(happeningDate,timezone)
                   var dt = new Date(happeningDate);
-                  var showTime = {{ contents.showTime | default: true }};
+                  var showTime = {% if contents.showTime == false %}false{% else %}true{% endif %};
                   var dateFormat = '{{ contents.dateFormat | default: "mm/dd/yyyy" }}';
                   var mo = String(dt.toLocaleString('en-US', { timeZone: timezone, month: '2-digit' }));
                   var da = String(dt.toLocaleString('en-US', { timeZone: timezone, day: '2-digit' }));
